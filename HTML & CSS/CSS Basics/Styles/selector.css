@@ -1,0 +1,17 @@
+body {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+#para3 {
+  color: green;
+}
+
+.one {
+  color: yellow;
+}
+
+.two {
+  color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

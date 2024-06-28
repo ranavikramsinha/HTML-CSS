@@ -1,0 +1,12 @@
+body {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+div p{
+    color: green;
+}
+
+div h1{
+    color: yellow;
+}
