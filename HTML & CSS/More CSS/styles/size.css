@@ -1,0 +1,23 @@
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.box{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+#bg_image{
+    background-image: url(../Images/smile.jpg);
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg); */
+    height: 555px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    /* background-size: cover; */
+    background-size: contain;
+}
