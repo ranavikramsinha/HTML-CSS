@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="Styles/practice.css"><!-- external styling has least priority -->
+    <!-- internal styling has 2nd rank in priority, 1st is inline styling -->
+    <style> 
+        #heading{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <div id="heading" style="color: yellow;"> <!--? inline styling has high priority -->
+        <h2>Heading 2</h2>
+    </div>
+
+    <div id="div">div element</div>
+    <p>paragraph element</p>
+    <h3 class="heading3">Heading 3</h3>
+
+    <div id="first">First div</div>
+    <div id="second">Second div</div>
+</body>
+</html>

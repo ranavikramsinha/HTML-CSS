@@ -1,0 +1,35 @@
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+h1{
+    color: red;
+}
+
+#heading{
+    color: blue;
+}
+
+#div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: cyan;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: brown;
+}
+
+.heading3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150px;
+    color: chocolate;
+}
+
+#first, #second{
+    font-size: 60px;
+    color: cadetblue;
+}
