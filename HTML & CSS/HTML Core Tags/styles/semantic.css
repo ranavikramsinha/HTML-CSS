@@ -1,0 +1,39 @@
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+header{
+    background-color: green;
+    color: yellow
+}
+
+main{
+    background-color: magenta;
+    color: brown;
+}
+
+#first_section{
+    background-color: aqua;
+}
+
+#second_section{
+    background: orange;
+}
+
+footer{
+    background-color: salmon;
+}
+
+h1{
+    background-color: red;
+}
+
+a{
+    background: burlywood;
+}
+
+aside{
+    background: yellow;
+    color: black;
+}
