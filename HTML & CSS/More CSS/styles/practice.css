@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.div1{
+    background-color: rgba(174, 9, 9, 0.3);
+    color: green;
+}
+
+.image{
+    background-image: url(../Images/smile.jpg);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */ /* fixed makes bg size cover automatically */
+}
+
+.div2{
+    background: red url(../Images/smile.jpg) right / contain no-repeat; /* center (background-position) & contain (background-size) */
+    height: 600px;
+    /* background-position: left; */
+    /* background-size: cover; */
+}
