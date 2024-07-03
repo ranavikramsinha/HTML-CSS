@@ -15,7 +15,7 @@ body{
 
 .image{
     background-image: url(../Images/smile.jpg);
-    height: 500px;
+    height: 110px;
     background-size: contain;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */ /* fixed makes bg size cover automatically */
@@ -23,7 +23,7 @@ body{
 
 .div2{
     background: red url(../Images/smile.jpg) right / contain no-repeat; /* center (background-position) & contain (background-size) */
-    height: 600px;
+    height: 300px;
     /* background-position: left; */
     /* background-size: cover; */
 }
