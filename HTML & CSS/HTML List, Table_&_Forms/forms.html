@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles/forms.css" />
+  </head>
+  <body>
+    <form>
+      <label for="text">Name:</label>
+      <input
+        type="text"
+        name="text"
+        id="text"
+        value="Aryan Sinha"
+        required
+        placeholder="Aryan Sinha"
+      />
+      <!--? value attribute => default input -->
+      <br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="Aryan@gmail.com"
+      />
+      <br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        placeholder="Enter your password"
+      />
+      <br />
+
+      <label for="tel">Phone Number:</label>
+      <input type="tel" name="tel" id="tel" required placeholder="0123456789" />
+      <br />
+
+      <label for="date">Date:</label>
+      <input type="datetime-local" name="date" id="date" />
+      <br />
+
+      <label for="image">Upload image:</label>
+      <input
+        type="file"
+        name="image"
+        id="image"
+        accept="image/png, image/jpeg"
+      />
+      <br />
+
+      <label for="video">Upload video:</label>
+      <input type="file" name="video" id="video" accept="video/mp4" />
+      <br />
+
+      <label for="range">Range:</label>
+      <input
+        type="range"
+        name="range"
+        id="range"
+        min="0"
+        max="100"
+        step="1"
+        value="70"
+      />
+      <br />
+
+      <label for="gender">Gender:</label>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="Female">Female</label>
+      <input type="radio" name="gender" id="Female" value="female" />
+      <label for="Other">Other</label>
+      <input type="radio" name="gender" id="Other" value="other" />
+      <br />
+
+      <label for="fruit">Fruit:</label>
+      <label for="apple">Apple</label>
+      <input type="checkbox" name="fruit" id="apple" />
+
+      <label for="banana">Banana</label>
+      <input type="checkbox" name="fruit" id="banana" />
+
+      <label for="pineapple">Pineapple</label>
+      <input type="checkbox" name="fruit" id="pineapple" />
+      <br />
+
+      <label for="fruits">Choose a fruit:</label>
+      <select name="fruits" id="fruits">
+        <option value="apple">🍎Apple</option>
+        <option value="banana">🍌Banana</option>
+        <option value="pineapple">🍍Pineapple</option>
+      </select>
+      <br>
+
+      <label for="description">Description</label>
+      <br>
+      <textarea name="description" id="description" cols="30" rows="10" placeholder="Write here..."></textarea>
+
+      <br />
+      <button>Button</button>
+      <input type="submit" value="Submit" />
+      <br />
+    </form>
+  </body>
+</html>
