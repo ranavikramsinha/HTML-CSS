@@ -1,0 +1,43 @@
+body {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.text1 {
+  background-color: green;
+  text-align: justify;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-transform: capitalize;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  font-size: 50px;
+}
+
+#box1 {
+  background-color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: yellow;
+  text-transform: uppercase;
+}
+#box2 {
+  background-color: green;
+  text-align: right;
+  text-decoration: overline;
+  text-decoration-style: dotted;
+  text-decoration-color: red;
+  text-transform: lowercase;
+}
+#box3 {
+  background-color: blue;
+  text-align: start;
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: cyan;
+  text-transform: none;
+}
