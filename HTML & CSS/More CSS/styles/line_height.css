@@ -1,0 +1,21 @@
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+#first{
+    line-height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#second{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Anton SC", cursive;
+}
+
+#third{
+    line-height: 45px;
+    font-size: 60px;
+}
