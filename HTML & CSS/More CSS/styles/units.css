@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.box{
+    background-color: green;
+
+    /* percentage in height is not possible but possible in absolute while targeting the body */
+
+    /* height: 50%; */
+    /* height: 100px; */
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid yellow;
+    font-size: 50px;
+}
+
+#box2{
+    font-size: 2em;
+}
+
+#box3{
+    font-size: 0.5em;
+}
+
+#box5{
+    font-size: 0.5rem;
+}
+
+#box6{
+    font-size: 0.75rem;
+}
+
+#box7{
+    height: 30vh;
+    width: 50vw;
+}

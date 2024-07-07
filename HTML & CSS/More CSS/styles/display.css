@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.box{
+    /* default display is block element */
+    /* when display is inline, the height & width get adjust according to the content */
+    /* when display is inline-block, the height and width adjustment is possible in inline element */
+    /* when display is set none, content gets disapper and also it doesn't take space */
+    
+    /* display: block; */
+    /* display: inline; */
+    /* display: none; */
+    display: inline-block;
+    font-size: 100px;
+    height: 150px;
+    width: 300px;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    border: 3px dotted yellow;
+    border-radius: 20px;
+    background-color: green;
+}
+
+/* #box2{
+    display: none;
+    visibility: hidden;
+} */
+
+/* when visibility is set hidden, content gets disapper but it does take space */
