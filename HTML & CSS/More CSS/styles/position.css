@@ -27,8 +27,9 @@ body{
     position: relative;
     left: 50px;
     /* right: 40px; */
-    /* top: 30px; */
+    top: 30px;
     /* bottom: 20px; */
+    z-index: 1;
 }
 
 #box3{
