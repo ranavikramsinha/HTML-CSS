@@ -5,10 +5,12 @@
 
 body{
     background-color: #222222;
-
+    /* color: #ffffff; */
 }
 
 .container{
+
+    height: 1500px;
     
     /* default flex-direction is row */
 
@@ -19,7 +21,7 @@ body{
 
     /* default justify-content is flex-start */
     
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     /* justify-content: space-between; */
     /* justify-content: flex-end; */
     /* justify-content: center; */
@@ -30,14 +32,25 @@ body{
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
 
+    /* default align-items is start */
+
+    /* align-items: start; */
+    /* align-items: center; */
+    /* align-items: end; */
+
+    /* align-content: center; */
+    /* align-content: space-evenly; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+
     background-color:brown;
     border: 3px solid black;
     margin: 10px;
 }
 
 .box{
-    height: 70px;
-    width: 70px;
+    height: 170px;
+    width: 170px;
     background-color:aqua;
     margin: 10px;
     padding: 10px;
@@ -45,4 +58,64 @@ body{
     border: 5px solid black;
     border-radius: 10px;
     text-align: center;
+}
+
+#box1{
+    background-color: green;
+    /* align-self: end; */
+    order: 5;
+}
+#box2{
+    background-color: yellow;
+    /* align-self: end; */
+    order: 1;
+}
+#box3{
+    background-color: blueviolet;
+    /* align-self: end; */
+
+    /* flex-shrink: 0; */
+    /* flex-shrink: 1; */
+    flex-shrink: 2;
+    order: 2
+}
+#box4{
+    background-color: brown;
+    /* align-self: end; */
+    order: 3;
+}
+#box5{
+    background-color: chocolate;
+    /* align-self: end; */
+    /* flex-shrink: 0; */
+
+    /* value greater than 1 produce same result */
+    flex-grow: 1;
+    order: 4;
+}
+#box6{
+    background-color: orange;
+    /* align-self: end; */
+    order: 7;
+    
+}
+#box7{
+    background-color: magenta;
+    /* align-self: end; */
+    order: 6;
+}
+#box8{
+    background-color: maroon;
+    /* align-self: end; */
+    order: 10;
+}
+#box9{
+    background-color: grey;
+    /* align-self: end; */
+    order: 9;
+}
+#box10{
+    background-color: chartreuse;
+    /* align-self: end; */
+    order: 8;
 }
