@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+/* Pesudo means pretend */
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+}
+
+/* a:visited{
+    color: crimson;
+} */
+
+input:focus{
+    background-color: green;
+    color: white;
+}
