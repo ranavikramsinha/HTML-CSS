@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 200px 0px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid yellow;
+    border-radius: 10px;
+
+    /* transition-property: all; */
+    /* transition-duration: 1s; */
+    /* transition-timing-function: ease-out; */
+    /* transition-delay: 0s; */
+
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.box:hover{
+    background-color: yellow;
+    border: 3px solid red;
+    color: #000000;
+
+    /* transform: rotate(90deg); */
+    transform: rotate(360deg);
+    /* transform: rotate(-360deg); */
+
+    /* transform: rotatex(45deg); */
+    /* transform: rotatex(-45deg); */
+
+    /* transform: rotatey(45deg); */
+    /* transform: rotatey(-45deg); */
+
+    /* transform: scale(2); */
+    /* transform: scalex(45deg); */
+    /* transform: scaley(45deg); */
+    /* transform: scalez(45deg); */
+
+    /* transform: translate(300px, 300px); */
+
+    /* transform: skew(-90deg); */
+}
