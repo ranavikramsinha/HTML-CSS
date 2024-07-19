@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 200px 0px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    position: absolute;
+
+    animation-name: backAndForth;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+}
+
+.box:hover{
+    background-color: yellow;
+    border: 3px solid red;
+    color: #000000;
+}
+
+/* @keyframes backAndForth{
+    from{
+        left: 0;
+    }
+    to{
+        left: 200px;
+    }
+} */
+
+/* @keyframes backAndForth{
+    0%{
+        left: 0;
+    }
+
+    50%{
+        left: 150px;
+    }
+
+    100%{
+        left: 200px;
+    }
+} */
+
+@keyframes backAndForth{
+    0%{
+        left: 0;
+        top: 0px;
+    }
+
+    50%{
+        top: 50px;
+    }
+
+    100%{
+        left: 200px;
+        top: 0px;
+    }
+}
